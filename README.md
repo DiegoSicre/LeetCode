@@ -49,11 +49,6 @@ This repository implements spaced repetition to move solutions from short-term t
 3. **Third Run**: Solve again after a longer interval to reinforce the pattern
 4. **Fourth+ Runs**: Continue until the solution becomes intuitive
 
-### File Naming Convention
-Files often include complexity notation for quick reference:
-- `twoSumWithHashDictO(n).py` - Hash dictionary approach with O(n) time complexity
-- `validAnagramsBySortingO(nlogn).py` - Sorting approach with O(n log n) complexity
-- `groupAnagramsArrayO(n).py` - Array-based approach with O(n) complexity
 
 ## 💡 Learning Benefits
 
@@ -85,21 +80,6 @@ TwoPointer/
 5. **Space It Out**: Return to the problem after days/weeks for subsequent runs
 6. **Compare**: Review previous solutions to see improvement and pattern internalization
 
-## 🎯 Current Focus Areas
 
-- **Arrays & Hashing**: Core foundation problems
-- **Two Pointer**: Optimization technique mastery
-
-## 📈 Future Growth
-
-As you progress, this repository will expand to include:
-- Stack & Queue problems
-- Binary Search techniques
-- Tree & Graph algorithms
-- Dynamic Programming
-- Backtracking
-- And more...
-
----
 
 **Note**: This is a living repository that evolves with your learning journey. Each run represents not just repetition, but growth in problem-solving intuition and DSA mastery.
