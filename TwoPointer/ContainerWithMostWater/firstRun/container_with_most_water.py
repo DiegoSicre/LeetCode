@@ -17,6 +17,7 @@ class Solution:
         the only way to improve is by finding another taller pillar,
         which we'll find in case it exists in the next movements"""
         
+        #This solution is O(1) space and O(n) time, way better than the O(n^2) brute force
         
         i : int = 0
         j : int = len(height) - 1
