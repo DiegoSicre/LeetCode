@@ -54,7 +54,7 @@ class MinStack:
         #We have made all the updates in the prev_min_map
         self.stack_array.pop()
             
-        #O(1) time and O(n) space if we only push smaller elements to the stack
+        #O(1) time and O(n) space if we only push smaller elements to the stack i.e every push creates a new min, storing all of the in the map.
         
 
     def top(self) -> int:
