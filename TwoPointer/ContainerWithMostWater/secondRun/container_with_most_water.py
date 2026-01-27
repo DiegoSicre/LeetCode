@@ -15,3 +15,4 @@ class Solution:
             else:
                 j-=1
         return max_area
+    #O(1) space, no extra, and O(n) time in the worst case as we do only One pass
