@@ -18,5 +18,5 @@ class Solution:
                 i+=1
                 j-=1
         return True
-
+        #O(n) time as we only traverse the string once inside a loop and O(1) space as we don't use any data structures
 print(Solution().isPalindrome("A man, a plan, a canal: Panama"))
