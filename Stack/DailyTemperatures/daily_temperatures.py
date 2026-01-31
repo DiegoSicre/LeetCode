@@ -12,7 +12,8 @@ class Solution:
         In every pop() we'll store it result[index] = i - index.
         
         Effectively going through the whole array twice, meaning a O(2n) = O(n) complexity that's way better than 
-        the O(n^2) approach
+        the O(n^2) approach and O(n) space complexity for using a stack that in case temperatures is in increasing
+        order will store all of it's elements
         """
         
         
