@@ -16,7 +16,8 @@ class Solution:
         
             stack : List[Tuple[int, int]] = []
             stack.append(sorted_with_idx[-1])
-            
+            #Note that this technique is a monotonic decreasing stack comparison, which is a LeetCode pattern worth learning
+            #for when we need to know the previous max o max, or previous min or next min
             for i in range(len(sorted_with_idx) - 2, -1, -1):
                 last_fleet : Tuple[int, int] = stack[-1]
                 current_car : Tuple[int, int] = sorted_with_idx[i]
